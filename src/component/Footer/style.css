@@ -1,0 +1,8 @@
+.footer {
+    background-color: wheat;
+    min-height: 6rem;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+}

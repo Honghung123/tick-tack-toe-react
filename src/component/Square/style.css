@@ -1,0 +1,27 @@
+.square {
+    width: 6rem;
+    height: 6rem;
+    background-color: #fff;
+    border: 1px solid #999;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.square:hover {
+    background-color: #ddd;
+}
+
+.square-mark {
+    display: inline-block;
+    font-size: 4rem;
+}
+
+.square.active {
+    background-color: #a200ff;
+    .square-mark {
+        color: #fff;
+    }
+}

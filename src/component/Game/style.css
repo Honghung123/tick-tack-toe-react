@@ -1,0 +1,130 @@
+.game-container {
+    text-align: center;
+    background-color: beige;
+    padding: 1rem;
+}
+
+.status {
+    padding: 1rem;
+    font-size: 3rem;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+    padding: 1rem;
+}
+
+.game-info {
+    background-color: white;
+    border-radius: 0.3rem;
+    overflow: hidden;
+    padding: 1rem;
+}
+
+.winner {
+    padding: 2rem;
+    background-color: rgba(8, 251, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.winner-content {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+
+.status-draw {
+    background-color: aquamarine;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.reset-section,
+.change-turn-section {
+    text-align: center;
+}
+
+.sm-btn {
+    padding: 0.75rem;
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+}
+
+.md-btn {
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.reset-btn {
+    background-color: rgb(255, 125, 125);
+    color: #fff;
+    &:hover {
+        background-color: rgb(255, 0, 0);
+    }
+}
+
+.success-btn {
+    background-color: rgb(141, 255, 154);
+    color: #fff;
+    &:hover {
+        background-color: rgb(0, 255, 68);
+    }
+}
+
+.info-btn {
+    background-color: rgb(141, 251, 255);
+    color: #fff;
+    &:hover {
+        background-color: rgb(175, 15, 255);
+    }
+}
+
+.outline-btn {
+    outline: 2px solid #ccc;
+    &:hover {
+        outline-color: #000;
+    }
+}
+
+.history-list {
+    min-width: 20rem;
+    min-height: 15rem;
+    max-height: 25rem;
+    padding: 0.4rem;
+    overflow: hidden scroll;
+}
+
+.history-item + .history-item {
+    margin-top: 0.5rem;
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+}
+
+.change-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.change-size {
+    & input {
+        width: 3rem;
+        padding: 0.5rem;
+        margin: 0 0.5rem;
+    }
+}
