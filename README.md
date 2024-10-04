@@ -1,9 +1,15 @@
-# React + Vite
+### Project name: Tick Tack Toe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Link: https://tick-tack-toe-react-tawny.vercel.app/
 
-Currently, two official plugins are available:
+-   For the current move only, show “You are at move #…” instead of a button: **Completed**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-"Tick tac toe simple project using React" 
+-   Rewrite the Board to use two loops to make the squares instead of hardcoding them: **Completed**.
+
+-   Add a toggle button that lets you sort the moves in either ascending or descending order: **Completed**.
+
+-   When someone wins, highlight the three squares that caused the win (and when no one wins, display a message about the result being a draw): **Completed**.
+
+-   Display the location for each move in the format (row, col) in the move history list: **Completed**
+
+-   Upload to a public host: **Completed**
