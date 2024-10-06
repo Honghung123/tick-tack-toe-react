@@ -20,7 +20,7 @@ const cloneArray = (board) => {
     return newBoard;
 };
 const copyValueIntoBoardFrom = (boardSize, history, turn, isReverse) => {
-    turn = isReverse ? turn.reverse() : turn;
+    history = isReverse ? history.slice().reverse() : history;
     const newBoard = initialBoard(boardSize);
     for (let i = 0; i < history.length; i++) {
         const [xAxis, yAxis] = history[i];
